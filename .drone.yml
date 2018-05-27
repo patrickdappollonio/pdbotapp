@@ -1,3 +1,10 @@
 workspace:
   base: /go
   path: src/github.com/patrickdappollonio/pdbotapp
+
+pipeline:
+  build-docker:
+    image: plugins/docker
+    secrets: [docker_username, docker_password]
+    repo: registry.dappollonio.us/pdbotapp
+    tags: latest
