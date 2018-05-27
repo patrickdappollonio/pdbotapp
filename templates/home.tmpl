@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>PDBot Control Panel</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vuetify/1.0.18/vuetify.min.css" integrity="sha256-YTjw9Po3S/vI4lv7/EfcNUuaGg/4QtIRIZFOXJ9miRs=" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div id="app">
+            <v-app>
+                <v-content>
+                    <h1>Hello, {{ item }}</h1>
+                </v-content>
+            </v-app>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js" integrity="sha256-CMMTrj5gGwOAXBeFi7kNokqowkzbeL8ydAJy39ewjkQ=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vuetify/1.0.18/vuetify.js" integrity="sha256-QcTjIsJXeijBXAHb+uD3uV06YGStGVYBY6Mu88OQxR8=" crossorigin="anonymous"></script>
+        <script>
+            new Vue({
+                el: '#app',
+                data: {
+                    item: 'PDBot!'
+                }
+            })
+        </script>
+    </body>
+</html>
