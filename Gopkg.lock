@@ -43,9 +43,21 @@
   packages = ["."]
   revision = "f524381ae5cd5fb565ce0b84b105797004ba4d8a"
 
+[[projects]]
+  name = "github.com/patrickmn/go-cache"
+  packages = ["."]
+  revision = "a3647f8e31d79543b2d0f0ae2fe5c379d72cedc0"
+  version = "v2.1.0"
+
+[[projects]]
+  name = "github.com/thoj/go-ircevent"
+  packages = ["."]
+  revision = "5063e5f26097f6423c9de665079347c9473788da"
+  version = "0.2"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "dff47300a0b1ddcefc658f791dfa7ce27b66112454db6489f2d0cbe6717a03ce"
+  inputs-digest = "783f82589e6b2668ee2575366b66f7b3644adccea9eee3b05594d204c1cfab9c"
   solver-name = "gps-cdcl"
   solver-version = 1
